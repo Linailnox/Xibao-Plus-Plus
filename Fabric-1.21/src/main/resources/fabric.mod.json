@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "xibaopp",
+  "version": "${version}",
+
+  "name": "Xibao",
+  "description": "!!!NON ORIGINAL AUTHOR MODS，PLEASE DO NOT REPORT BUGS TO THE ORIGINAL AUTHOR!!!  Congratulations! You had lost the connection!",
+  "authors": [
+    "Linailnox(Fork作者)",
+    "GregTao(原作者)",
+    "TeaCon(灵感)"
+  ],
+  "contact": {
+    "issues":"https://github.com/Linailnox/Xibao-Plus-Plus/issues",
+    "sources": "https://github.com/Linailnox/Xibao-Plus-Plus",
+     "email": "本模组内容若有侵权请联系linailnox@qq.com删除"
+  },
+  "contributors": [
+    "HaiHome-114514",
+    "SkyDynamic"
+  ],
+  "license": "GPL v3",
+  "icon": "assets/xibaopp/textures/logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "top.gregtao.xibaopp.XibaoPlusPlusMain"
+    ]
+  },
+  "mixins": [
+    "xibaopp.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "fabric": "*",
+    "minecraft": ">=1.21",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
